@@ -1,0 +1,77 @@
+h2{
+    font-size: 1.5em;
+    font-family: "宋体"
+}
+.nav{
+    height:58px;
+    width: 960px;
+    margin: 0 auto ;
+    z-index: 9999;
+}
+.login{
+    padding: 10px;
+    height:58px;
+}
+.login img{
+    width: 120px;
+    height: 36px;
+}
+.sorts li{
+    float: left;
+    font-size: 14px;
+    position: relative;
+    margin: 13px 5px 0;
+}
+.sorts li a{
+    height: 30px;
+    line-height: 29px;
+    padding: 0 12px;
+    font-size: 18px;
+    display: block;
+}
+.sorts a:hover{
+    color: #fff;
+    background: #f80;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#sort a{
+    color: #fff;
+    background: #f80;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.icon-arrow{
+    display: block;
+    border: 6px solid #999999;
+    border-bottom-color:transparent; 
+    border-left-color:transparent; 
+    border-right-color:transparent; 
+    position: absolute;
+    top:25px;
+    right:-6px;
+    transition: .5s transform;
+    transform-origin:50% 30%; 
+}
+.rotate{
+    position: relative;
+    cursor: pointer;
+}
+.input{
+    margin-left:25px;
+    padding-left:10px; 
+    border-radius: 20px;
+    border: 1px solid #e0e0e0;
+    outline: 0;
+    height:30px;
+    color: #999;
+    font-size: 12px;
+}
+#nav-right li{
+    margin-right:40px;
+    font-size: 12px; 
+}
+#nav-right li a:hover{
+    color: #f80;
+}
+

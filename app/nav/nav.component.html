@@ -1,0 +1,30 @@
+<div class="nav clear">
+    <div class="left login">
+        <img src="assets/image/logo.png" alt="">
+    </div>
+    <ul class="sorts">
+        <li class="left"><a href="javascript:;">首页</a></li>
+        <li class="left"><a routerLink="content">直播</a></li>
+    </ul>
+    <div class="left rotate" 
+        (mouseleave)="rotate('0deg','#999999')"
+        (mouseenter)="rotate('180deg','#f80')">
+        <ul class="sorts">
+            <li id="sort"><a routerLink="sort">分类</a></li>
+        </ul>
+        <i class="icon-arrow" id="arrow"></i>
+    </div>
+    <input type="text" placeholder="王者荣耀" class="input" 
+    id="borderColor" (focus)="borderColor($event,'#f80')"
+     (blur)="borderColor($event,'#E0E0E0')">
+    <div class="right">
+        <span style="font-size: 12px;"><a href="#">登录</a></span>
+        <span>|</span>
+        <span style="font-size: 12px;"><a href="#">注册</a></span>
+    </div>
+    <ul class="right" id="nav-right">
+        <li class="left"><a href="#">下载</a></li>
+        <li class="left"><a href="#">订阅</a></li>
+        <li class="left"><a href="#">历史</a></li>
+    </ul>
+</div>

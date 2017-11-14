@@ -1,0 +1,1 @@
+{"version":3,"file":"box.component.js","sourceRoot":"","sources":["box.component.ts"],"names":[],"mappings":";;;;;;;;;;AAAA,qBAAkC,eAAe,CAAC,CAAA;AAQlD;IACI;IAAgB,CAAC;IAEjB,+BAAQ,GAAR,cAAa,CAAC;IATlB;QAAC,gBAAS,CAAC;YACP,QAAQ,EAAE,KAAK;YACf,WAAW,EAAE,sBAAsB;YACnC,SAAS,EAAC,CAAC,0BAA0B,CAAC;SACzC,CAAC;;oBAAA;IAMF,mBAAC;AAAD,CAAC,AAJD,IAIC;AAJY,oBAAY,eAIxB,CAAA"}

@@ -1,0 +1,57 @@
+.main-menu a{
+    height: 47px;
+    display: block;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 45px;
+    color: rgb(153, 153, 153);
+    padding-left: 40px;
+}
+
+.main-menu a:hover{
+    color: #ff8800
+}
+.sm-menu{
+    margin-left:25px;
+}
+.sm-menu li a{
+    display: inline-block;
+    float: left;
+    margin: 0 0 5px 5px;
+    width: 63px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #3f3f3f;
+    border-radius: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    font-size: 12px;
+    padding-left:0;
+}
+.sm-menu li>a{
+    color:rgb(192, 192, 192)    
+}
+.sm-menu li>a:hover{
+    background: #ff8800;
+    color:#ffffff;
+}
+.btn{
+    display: inline-block;
+    text-align: center;
+    width:88px;
+    height: 30px;
+    line-height: 30px;
+    background: #ff8800;
+    color:#ffffff;
+    font-size:14px;
+    border-radius:4px; 
+    margin-left:22px;
+    margin-top:15px;
+}
+.main-menu a.on{
+    color: #f80;
+    opacity: .98;
+}
